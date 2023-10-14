@@ -1,0 +1,7 @@
+(lang dune 3.6)
+(name ocaml_problems)
+(sections (lib .) (bin ../../bin) (doc ../../doc/ocaml_problems))
+(files
+ (lib (META dune-package opam))
+ (bin (ocaml_problems.exe))
+ (doc (README.md)))
